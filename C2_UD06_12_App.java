@@ -20,7 +20,7 @@ public class C2_UD06_12_App {
 			System.out.println("Selecciona un digito: ");
 			digit = keyboard.nextInt();
 			
-		} while (digit / 10 > 1);
+		} while (digit > 10);
 		
 		keyboard.close();
 		
